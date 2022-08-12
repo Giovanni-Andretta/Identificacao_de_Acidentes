@@ -82,3 +82,16 @@ Se você vai customizar seu próprio modelo pré treinado do YOLO, você irá pr
 - __Image downloader - Imageye__ que faz o download de várias imagens direto do google imagens.
 - [Kaggle](https://www.kaggle.com/datasets) que é um site que disponibiliza inúmeros __Datasets__.
 
+## LabelImg
+
+Com o __Dataset__ ja em mãos, podemos utilizar o __LabelImg__.
+
+- Acessar o __LabelImg__
+- Clique em __Open Dir__ e selecione a pasta que você esta armazenando as imagens, e clique em Selecionar pasta.
+- Clique em __Change Save Dir__ e selecione a mesma pasta que você selecionou no __Open Dir__ e clique em Selecionar pasta.
+- Antes de começar, abaixo de __Save__, se estiver com __PascalVOC__, clique nele para aparecer __YOLO__.
+- Clique em __Create RectBox__, va até onde o objeto que você quer que seja identificado pelo seu modelo e crie uma __Create RectBox__ entorno dele.
+- Coloque o nome da sua __classe__, e clique em __OK__.
+- Após criar todas as __Create RectBox__ na imagem, clique me __Save__.
+- Clique em __Next Image__.
+- Faça isso para todas as imagens.
