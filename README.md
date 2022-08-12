@@ -1,7 +1,5 @@
 # Identificacao de Acidentes
 
-*************************************************
-
 | Nome da ferramenta  |  Versão  |
 | ------------------  | -------- |
 | Opencv | 4.6.0 |
