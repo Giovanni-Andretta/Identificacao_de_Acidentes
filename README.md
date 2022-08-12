@@ -95,3 +95,22 @@ Com o __Dataset__ ja em mãos, podemos utilizar o __LabelImg__.
 - Após criar todas as __Create RectBox__ na imagem, clique me __Save__.
 - Clique em __Next Image__.
 - Faça isso para todas as imagens.
+
+Após fazer isso, você vai ter uma pasta com imagens, arquivos txt com o mesmo nome que as imagens contendo coordenadas dos Labels e o arquivo txt __classes__ contendo o nome da sua classe/s.
+
+***O nome da pasta deve ser images, se for diferente, tera que ser alterado nos comandos do google colab***
+
+- Acesse a pasta contendo as imagens, arquivos txt das labels e arquivo txt classes.
+- Selecione tudo -- (Ctrl+a)
+- Clique com o botão direito do mouse.
+- Se tiver __Winrar__, selecione a opção __Adicionar para o arquivo...__ no campo __Formato do arquivo__, selecione a opção zip, e clique em __OK__
+- Se não tiver __Winrar__, selecione a opção __Enviar para__ >> __Pasta compactada__
+
+Após fazer isso, acesse seu drive.
+
+- Clique em __Novo__
+- Clique em __Nova pasta__
+- Coloque o nome: __yolov4__
+- Clique em __Criar__
+
+Acesse sua pasta no google drive e envie o arquivo __images.zip__
