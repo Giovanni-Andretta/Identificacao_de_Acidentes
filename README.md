@@ -61,3 +61,7 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```
 
 Para mais informações, verifique: https://github.com/heartexlabs/labelImg
+
+****************************************************
+
+# Funcionamento
