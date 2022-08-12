@@ -1,4 +1,4 @@
-# Visão Computacional -- Identificacao de Acidentes
+# Visão Computacional -- Identificação de Acidentes
 
 | Nome da ferramenta  |  Versão  |
 | ------------------  | -------- |
