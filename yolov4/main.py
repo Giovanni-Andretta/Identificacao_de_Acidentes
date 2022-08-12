@@ -51,7 +51,7 @@ def send(counter, score):
     aux+=1
 
 #Carrega o conteudo para análise (pode ser uma câmera ou um vídeo em um arquivo)
-cap = cv2.VideoCapture(0);
+cap = cv2.VideoCapture("../data/any_video.mp4");
 
 #Identifica a resolução do vídeo (será usado para definir a resolução da saída)
 vwidth = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
