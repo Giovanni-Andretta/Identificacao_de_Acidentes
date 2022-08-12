@@ -10,6 +10,7 @@
 | Opencv | 4.6.0 |
 | Twilio | 7.12.0 |
 | LabelImage | windows_v1.8.0 |
+| Image downloader - Imageye | 3.0.7 |
 
 
 ****************************************************
@@ -50,7 +51,7 @@ pip install twilio==7.12.0
 
 ## LabelImage
 
-Para a instalação do LabelImage utilizando o Anaconda, abra o Anaconda Prompt e digite os comandos abaixo:
+Para a instalação do __LabelImg__ utilizando o __Anaconda__, abra o Anaconda Prompt e digite os comandos abaixo:
 
 ```
 conda install pyqt=5
@@ -62,6 +63,22 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 Para mais informações, verifique: https://github.com/heartexlabs/labelImg
 
+## Image downloader - Imageye
+
+Para baixar e instalar o __Image downloader - Imageye__ utilize o link abaixo:
+
+[Image downloader - Imageye](https://chrome.google.com/webstore/detail/image-downloader-imageye/agionbommeaifngbhincahgmoflcikhm)
+
 ****************************************************
 
 # Funcionamento
+
+***Para que o código funcione é preciso que você tenha os arquivos do modelo pré treinado do YOLO***, para gerar esses arquivos siga os passos abaixo:
+
+## Dataset
+
+Se você vai customizar seu próprio modelo pré treinado do YOLO, você irá precisar de um __Dataset__ e para te auxiliar com a coleta das imagens você pode utilizar:
+
+- __Image downloader - Imageye__ que faz o download de várias imagens direto do google imagens.
+- [Kaggle](https://www.kaggle.com/datasets) que é um site que disponibiliza inúmeros __Datasets__.
+
