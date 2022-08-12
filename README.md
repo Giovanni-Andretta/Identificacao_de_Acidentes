@@ -7,3 +7,4 @@
 | Python | 3.8.8 |
 | Anaconda | 4.10.3 |
 | Jupyter Notebook | 6.3.0 |
+| LabelImage | windows_v1.8.0 |
