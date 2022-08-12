@@ -108,9 +108,15 @@ Após fazer isso, você vai ter uma pasta com imagens, arquivos txt com o mesmo 
 
 Após fazer isso, acesse seu drive.
 
+***O nome da pasta deve ser yolov4, se for diferente, tera que ser alterado nos comandos do google colab***
+
 - Clique em __Novo__
 - Clique em __Nova pasta__
 - Coloque o nome: __yolov4__
 - Clique em __Criar__
 
 Acesse sua pasta no google drive e envie o arquivo __images.zip__
+
+## Google Colab
+
+
