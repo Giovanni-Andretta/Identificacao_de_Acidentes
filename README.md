@@ -158,4 +158,17 @@ Basta comentar a linha [104](https://github.com/GiovanniAndrettaCarbonero/Identi
 
 ## Twilio
 
+Para que a mensagem seja enviada, é preciso que se crie uma conta no [Twilio](https://www.twilio.com/)
 
+Ao logar no __Twilio__ você precisa fazer a solicitação de seu número __Twilio__ para fazer isso clique em __Get a Twilio phone number__.
+Após isso, descendo a página irá ter o campo __Account Info__ que deve conter as segunintes informações:
+
+- Account SID
+- Auth Token
+- My Twilio phone number
+
+Essas informações deverão ser preenchidas no código
+
+```
+[#Dados informados na sua conta twilio](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/blob/125b3934a42dd1577e324ab48c8f29cb229e83b5/yolov4/main.py#L34)
+```
