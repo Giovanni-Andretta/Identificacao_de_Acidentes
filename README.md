@@ -119,4 +119,12 @@ Acesse sua pasta no google drive e envie o arquivo __images.zip__
 
 ## Google Colab
 
+Nessa etapa você deve decidir qual arquivo de pesos pré-treinado você usará, a diferença deles está em questão de tamanho e performance, exemplos abaixo:
+
+***CPU utilizada foi um i5-9300H***
+
+- __yolov4.conv.137__ utilizando esse modelo você vai ter uma média de __2.5 fps__ rodando em ***CPU***, valores de precisão e detecção __ótimos__, o tempo de treino no Google Colab é aproximadamente __16 horas__
+- __yolov4-tiny.conv.29__ utilizando esse modelo voce vai ter uma média de __10 fps__ rodando em ***CPU***, valores de precisão e detecção __inferiores__, o tempo de treino no Google Colab é aproximadamente __5 horas__
+
+
 
