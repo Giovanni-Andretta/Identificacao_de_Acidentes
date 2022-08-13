@@ -121,7 +121,7 @@ Acesse sua pasta no google drive e envie o arquivo __images.zip__
 
 Nessa etapa você deve decidir qual arquivo de pesos pré-treinado você usará, a diferença deles está em questão de tamanho e performance, exemplos abaixo:
 
-***CPU utilizada foi um i5-9300H***
+***CPU utilizado foi um i5-9300H***
 
 - __yolov4.conv.137__ utilizando esse modelo você terá uma média de __2.5 fps__ rodando em ***CPU***, valores de precisão e detecção __ótimos__, o tempo de treino no Google Colab é aproximadamente __16 horas__
 - __yolov4-tiny.conv.29__ utilizando esse modelo você terá uma média de __10 fps__ rodando em ***CPU***, valores de precisão e detecção __inferiores__, o tempo de treino no Google Colab é aproximadamente __5 horas__
@@ -149,10 +149,13 @@ Quando o treinamento for concluído, em sua pasta __yolov4__ do __Google Drive__
 
 Você tera que baixar os arquivos: classes.txt, yolov4_testing.cfg e yolov4_training_last.weights, coloque-os dentro da pasta [modelo_pre_treinado](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/tree/main/modelo_pre_treinado)
 
+Para mais informações do YOLO acesse https://github.com/AlexeyAB/darknet
+
+
 Com isso o código ja irá funcionar!
 
 Basta comentar a linha [104](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/blob/e10a38ac8393966ad6138853f6c1a4a673c0fdb2/yolov4/main.py#L104) até a linha [110](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/blob/e10a38ac8393966ad6138853f6c1a4a673c0fdb2/yolov4/main.py#L110) para que não envie um SMS ao detectar um acidente, se não quiser comentar as linhas siga os passos abaixo.
 
-# Twilio
+## Twilio
 
 
