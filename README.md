@@ -169,6 +169,4 @@ Após isso, descendo a página irá ter o campo __Account Info__ que deve conter
 
 Essas informações deverão ser preenchidas no código
 
-```
-[#Dados informados na sua conta twilio](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/blob/125b3934a42dd1577e324ab48c8f29cb229e83b5/yolov4/main.py#L34)
-```
+- [#Dados informados na sua conta twilio](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/blob/125b3934a42dd1577e324ab48c8f29cb229e83b5/yolov4/main.py#L34)
