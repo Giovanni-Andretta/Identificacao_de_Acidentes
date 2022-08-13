@@ -130,5 +130,29 @@ Após decidir qual arquivo de peso você utilizará para treinar seu modelo, sig
 
 - Entre no [Google Colab]https://colab.research.google.com/
 - Logue com sua conta
-- Siga os passos nos arquivos: [Comandos](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/tree/main/google_colab)
+- No canto esquerdo superior clique na opção __Editar__
+- Clique em __Configurações de notebook__
+- Em __Acelerador de hardware__ coloque a opção __GPU__ e clique em __Salvar__
+- Siga os passos dos arquivos [google_colab](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/tree/main/google_colab)
+
+Quando o treinamento for concluído, em sua pasta __yolov4__ do __Google Drive__ deve conter os arquivos:
+
+1. classes.txt
+2. images.zip
+3. yolov4_testing.cfg
+4. yolov4_training_1000.weights
+5. yolov4_training_2000.weights
+6. yolov4_training_3000.weights
+7. yolov4_training_4000.weights
+8. yolov4_training_final.weights
+9. yolov4_training_last.weights
+
+Você tera que baixar os arquivos: classes.txt, yolov4_testing.cfg e yolov4_training_last.weights, coloque-os dentro da pasta [modelo_pre_treinado](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/tree/main/modelo_pre_treinado)
+
+Com isso o código ja irá funcionar!
+
+Basta comentar a linha [104](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/blob/e10a38ac8393966ad6138853f6c1a4a673c0fdb2/yolov4/main.py#L104) até a linha [110](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/blob/e10a38ac8393966ad6138853f6c1a4a673c0fdb2/yolov4/main.py#L110) para que não envie um SMS ao detectar um acidente, se não quiser comentar as linhas siga os passos abaixo.
+
+# Twilio
+
 
