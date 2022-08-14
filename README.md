@@ -34,7 +34,7 @@ O __Jupyter Notebook__ ja vem em conjunto com o __Anaconda__.
 
 ## Python
 
-Para instalar o __Python__ na versão 3.8.8 abra o __Anaconda Prompt__ e digite o comando abaixo:
+Para instalar o __Python__ na versão 3.8.8 utilizando o __Anaconda__, abra o __Anaconda Prompt__ e digite o comando abaixo:
 
 ```
 conda install python=3.8.8
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## LabelImage
 
-Para a instalação do __LabelImg__ utilizando o __Anaconda__, abra o Anaconda Prompt e digite os comandos abaixo:
+Para a instalação do __LabelImg__ utilizando o __Anaconda__, abra o __Anaconda Prompt__ e digite os comandos abaixo:
 
 ```
 conda install pyqt=5
