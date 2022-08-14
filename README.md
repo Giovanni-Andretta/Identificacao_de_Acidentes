@@ -7,10 +7,17 @@
 | Anaconda | 4.10.3 |
 | Jupyter Notebook | 6.3.0 |
 | Python | 3.8.8 |
-| Opencv | 4.6.0.66 |
+| Opencv-python | 4.6.0.66 |
 | Twilio | 7.12.0 |
 | LabelImage | windows_v1.8.0 |
 | Image downloader - Imageye | 3.0.7 |
+| charset-normalizer | 2.1.0 |
+| idna | 3.3 |
+| numpy | 1.23.2 |
+| PyJWT | 2.4.0 |
+| pytz | 2022.2.1 |
+| requests | 2.28.1 |
+| urllib3 | 1.26.11 |
 
 
 ****************************************************
