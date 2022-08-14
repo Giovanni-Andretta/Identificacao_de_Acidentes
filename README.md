@@ -7,7 +7,7 @@
 | Anaconda | 4.10.3 |
 | Jupyter Notebook | 6.3.0 |
 | Python | 3.8.8 |
-| Opencv | 4.6.0 |
+| Opencv | 4.6.0.66 |
 | Twilio | 7.12.0 |
 | LabelImage | windows_v1.8.0 |
 | Image downloader - Imageye | 3.0.7 |
@@ -38,7 +38,7 @@ conda install python=3.8.8
 Para instalar o __Opencv__ na versão 4.6.0 abra o Anaconda Prompt e digite o comando abaixo:
 
 ```
-pip install opencv-python==4.6.0
+pip install opencv-python==4.6.0.66
 ```
 
 ## Twilio
