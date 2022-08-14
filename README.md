@@ -30,30 +30,22 @@ Para baixar e instalar o __Anaconda__ utilize o link abaixo:
 
 [Anaconda](https://www.anaconda.com/)
 
-O __Jupyter Notebook__ ja vem em conjunto com o Anaconda.
+O __Jupyter Notebook__ ja vem em conjunto com o __Anaconda__.
 
 ## Python
 
-Para instalar o __Python__ na versão 3.8.8 abra o Anaconda Prompt e digite o comando abaixo:
+Para instalar o __Python__ na versão 3.8.8 abra o __Anaconda Prompt__ e digite o comando abaixo:
 
 ```
 conda install python=3.8.8
 ```
 
-## Opencv
+## Virtualenv
 
-Para instalar o __Opencv__ na versão 4.6.0 abra o Anaconda Prompt e digite o comando abaixo:
-
-```
-pip install opencv-python==4.6.0.66
-```
-
-## Twilio
-
-Para instalar o __Twilio__ abra o Anaconda Prompt e digite o comando abaixo:
+Para que seja instalado os pacotes nas versões corretas utilize o comando:
 
 ```
-pip install twilio==7.12.0
+pip install -r requirements.txt
 ```
 
 ## LabelImage
