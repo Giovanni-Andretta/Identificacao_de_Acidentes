@@ -127,7 +127,7 @@ Nessa etapa você deve decidir qual arquivo de pesos pré-treinado você usará,
 
 Após decidir qual arquivo de peso você utilizará para treinar seu modelo, siga as instruções abaixo:
 
-- Entre no [Google Colab]https://colab.research.google.com/
+- Entre no [Google Colab](https://colab.research.google.com/)
 - Logue com sua conta
 - No canto esquerdo superior clique na opção __Editar__
 - Clique em __Configurações de notebook__
