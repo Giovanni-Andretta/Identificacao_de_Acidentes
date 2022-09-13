@@ -146,7 +146,7 @@ Quando o treinamento for concluído, em sua pasta __yolov4__ do __Google Drive__
 8. yolov4_training_final.weights
 9. yolov4_training_last.weights
 
-Você tera que baixar os arquivos: classes.txt, yolov4_testing.cfg e yolov4_training_last.weights, coloque-os dentro da pasta [modelo_pre_treinado](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/tree/main/modelo_pre_treinado)
+Você tera que baixar os arquivos: __classes.txt__, __yolov4_testing.cfg__ e __yolov4_training_last.weights__, coloque-os dentro da pasta [modelo_pre_treinado](https://github.com/GiovanniAndrettaCarbonero/Identificacao_de_Acidentes/tree/main/modelo_pre_treinado)
 
 Para mais informações do YOLO acesse https://github.com/AlexeyAB/darknet
 
