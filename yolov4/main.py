@@ -89,7 +89,7 @@ while (cap.isOpened()):
     #Percorre as detecções feitas no quadro
     for(classid, score, box) in zip(classes, scores, boxes):
         # Precisão minima de 50%
-        if (score > .50):
+        if (score > .70):
             counter+=1
             #Amarelo 0,255,150
             #Vermelho 0,0,255
